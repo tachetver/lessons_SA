@@ -123,8 +123,8 @@ sequenceDiagram
 
 ## 4. Таблица маппинга
 
-| Наше поле (Order API) | Поле API Доставки | Преобразование |  |
-| :--- | :--- | :--- | :--- |
+| Наше поле (Order API) | Поле API Доставки | Преобразование |
+| :--- | :--- | :--- |
 | *order_id* | *external_order_id* | *Конвертация int → string* |
 | *address* | *delivery_address* | *Без изменений* |
 | *items[].weight* | *total_weight* | *Сумма весов всех товаров (items × quantity)* |
